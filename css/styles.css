@@ -1,0 +1,193 @@
+/* Login */
+.container{
+    height: 100vh;
+    background: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .login-container{
+    width: 25%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 5px 3px 19px -2px rgba(0,0,0,0.75);
+  }
+  .logo_eca {
+    margin: 20px 30px;
+    width: 250px;
+  }
+  .oma {
+    font-family: 'Ubuntu', sans-serif;
+    color: grey;
+    cursor: pointer;
+  }
+  form {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .input-form {
+    border: solid 1px #F2F2F2;
+    outline: none;
+    height: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin: 8px 0px;
+    padding: 0px 15px;
+  }
+  .btn-sign-up {
+    margin: 20px auto;
+    width: 130px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #007bff;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn-sign-up:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* menu and modules */
+
+/* Container for all modules */
+
+.modules-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+/* side menu */
+.menu {
+    width: 17vw;
+    height: 100vh;
+    position: fixed;
+    background: rgb(110, 110, 110);
+}
+.menu-header {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid 2px #fff;
+    padding-bottom: 10px;
+}
+.crw-logo {
+    width: 80px;
+    height: 80px;
+}
+.navigator {
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tabs {
+    display: flex;
+    flex-direction: column;
+}
+.tabs a {
+    width: 100%;
+    height: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding: 20px 0;
+}
+.tabs a:hover {
+    cursor: pointer;
+    background: #bbcada;
+    color: black;
+    border-bottom: solid 2px white;
+}
+.logout {
+    height: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+}
+.logout:hover {
+    cursor: pointer;
+    color: black;
+    background: #bbcada;
+    border-bottom: solid 2px white;
+}
+/* modules */
+.modules {
+    width: 83vw;
+    margin-left: 17vw;
+}
+
+.header {
+    height: 60px;
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #e0e1e2;
+
+}
+.min-logo {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+.module-header {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px #F2F2F2;
+    padding: 13px 20px;
+}
+.titles {
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 20px;
+}
+.firsts-params {
+    display: flex;
+
+}
+.date {
+    display: flex;
+    flex-direction: column;
+}
+.al-rc {
+    width: 300px;
+    border-radius: 2px;
+    margin: 25px;
+}
+.dts {
+    width: 100px;
+    border-radius: 2px;
+    margin: 25px;
+}

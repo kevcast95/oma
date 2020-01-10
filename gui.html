@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body class="modules-container">
+    <div class="menu">
+        <div class="menu-header">
+            <h1>O M A</h1>
+            <img class="crw-logo" src="./assets/crowis_logo.png" alt="logo" />
+        </div>
+        <div class="navigator">
+            <div class="tabs">
+                <a>GUI</a>
+                <a>Administrador</a>
+                <a>Seguimiento</a>
+            </div>
+            <span class="logout">Cerrar Sesión</span>
+        </div>
+    </div>
+    <div class="modules">
+        <div class="header">
+                <p>Designed and Developed by Crowis</p>
+                <img class="min-logo" src='./assets/crowis_logo1.png'/>
+        </div>
+        <div class="single-module">
+            <div class="module-header" >
+                <h2 class="mod-name" > GUI </h2>
+                <div>
+                    <p>10-01-2020</p>
+                    <p>Admin</p>
+                </div>
+            </div>
+            <div class="content-module" >
+                <h1 class="titles">Selección de Parametros</h1>
+                <div class="params" >
+                    <div class="firsts-params">
+                        <select class="al-rc" multiple>
+                            <option disabled value="volvo">Anomalias de Lectura</option>
+                            <option value="saab">Suministro no encontrado</option>
+                            <option value="opel">Conec. Directo (Med. No Encontrado)</option>
+                            <option value="audi">TIC_MEDIDOR_SIN_COMUNICACION</option>
+                        </select>
+                        <select class="al-rc" multiple>
+                            <option disabled value="volvo">Reclamos</option>
+                            <option value="saab">Exceso de consumo</option>
+                            <option value="opel">No lectura</option>
+                            <option value="audi">Error de lectura</option>
+                        </select>
+                        <div class="date">
+                            <select class="dts" >
+                                <option  value="volvo">Desde</option>
+                                <option value="saab">2019-00-01</option>
+                            </select>
+                            <select class="dts" >
+                                <option  value="volvo">Hasta</option>
+                                <option value="saab">2020-00-09</option>
+                            </select>
+                        </div>
+                    </div>
+                    <h2 class="titles">Delegaciones</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/params.js" ></script>
+    <script src="./js/gui.js" ></script>
+    <script src="./js/login.js" ></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+const api_url = 'http://167.99.15.34:6001/oma/'
